@@ -1,4 +1,3 @@
 export default{
-  images:[],
-  videos:[]
+  courses: null
 }

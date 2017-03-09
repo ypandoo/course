@@ -1,19 +1,10 @@
 import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
-
-// import reducersGenerate from './reducersGenerate';
-
-// import {
-//   USER
-// } from './../constants/actionTypes';
-// import initialState from './initialState';
-
-// const users = reducersGenerate(USER, initialState.users);
+import courses from './courseReducer'
 
 const rootReducer = combineReducers({
-  routing: routerReducer
-  // auth,
-  // users
+  routing: routerReducer,
+  courses
 });
 
 export default rootReducer;

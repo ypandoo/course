@@ -24,7 +24,7 @@ class App extends Component {
   renderAuthenticatedPage() {
     return (
 
-        <div className="ant-layout-main">
+        <div>
           <div className="ant-layout-header" />
 
           <div className="ant-layout-container">

@@ -1,0 +1,115 @@
+//Card
+.course-card-top {
+    height: 48px;
+    padding: 0 20px;
+    overflow: hidden;
+    color:white
+}
+
+.course-card-container{
+    box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);
+    transition: .3s all linear;
+}
+
+.course-card-container .cart-color.purple {
+    background: linear-gradient(270deg,rgba(210,115,230,.7),#d273e6);
+}
+
+.course-card-container .cart-color, .cart-color.red {
+    background: linear-gradient(270deg,rgba(255,115,155,.7),#ff739b);
+}
+
+.course-card-container .course-card-top i {
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    line-height: 48px;
+    margin-right: 8px;
+}
+
+.course-card-container .course-card-top span {
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 48px;
+    margin-right: 10px;
+}
+
+.course-card-container .course-card-name {
+    font-size: 14px;
+    color: #07111b;
+    line-height: 24px;
+    max-height: 48px;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: -o-ellipsis-lastline;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    letter-spacing: -.1px;
+}
+
+.course-card-container p {
+    height: 48px;
+    word-break: normal;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: -o-ellipsis-lastline;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.course-card-container .course-card-bottom {
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    left: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.course-card-container .course-card-content {
+    height: 180px;
+    background-color: #fff;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.course-card-container .course-card-name {
+    font-size: 14px;
+    color: #07111b;
+    line-height: 24px;
+    max-height: 48px;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: -o-ellipsis-lastline;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    letter-spacing: -.1px;
+}
+
+.course-card-container .course-card-info {
+    float: left;
+    margin: 0;
+}
+
+.course-card-container .course-card-info, .course-card-container p {
+    font-size: 12px;
+    color: #93999f;
+    line-height: 24px;
+    margin: 8px 0;
+}
+
+.course-card-container .course-card-price {
+    float: right;
+    color: #f01414;
+    font-weight: 200;
+}
+
